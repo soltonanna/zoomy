@@ -1,0 +1,5 @@
+Design of Template ==>
+Homepage URL:   https://html.creativegigstf.com/zoomy/index.html
+Instructor:     https://html.creativegigstf.com/zoomy/instructor.html
+Price:          https://html.creativegigstf.com/zoomy/price.html
+Blog:           https://html.creativegigstf.com/zoomy/blog-details.html
