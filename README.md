@@ -4,13 +4,13 @@
 
 
 # About project
-Portfolio Template using React, BEM, and Tailwind CSS<br/>
+Portfolio Template using React JS, BEM, and Tailwind CSS<br/>
 
 This portfolio template is built using modern web development technologies to provide a fast, responsive, and visually appealing user experience. Here’s a detailed description of the tools and methodologies used:<br/>
 
-<b>React JS:</b> A powerful JavaScript library for building user interfaces, ensuring a dynamic and responsive experience.<br/>
-<b>BEM Methodology:</b> A CSS naming convention that promotes modularity and reusability of code, making it easier to manage and scale the project.<br/>
-<b>Tailwind CSS:</b> A utility-first CSS framework that provides low-level utility classes to build custom designs without leaving your HTML.<br/>
+<b>React JS:</b> A powerful JavaScript library for building user interfaces, ensuring a dynamic and responsive experience.<br/><br/>
+<b>BEM Methodology:</b> A CSS naming convention that promotes modularity and reusability of code, making it easier to manage and scale the project.<br/><br/>
+<b>Tailwind CSS:</b> A utility-first CSS framework that provides low-level utility classes to build custom designs without leaving your HTML.<br/><br/>
 <b>Framer Motion:</b> Adds interactive and smooth animations to enhance user engagement and experience.
 
 ## Install

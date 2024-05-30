@@ -1,0 +1,84 @@
+/* src/styles/index.scss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.header {
+    border-bottom: 2px solid rgba(255, 114, 58, 0.1);
+}
+
+.hero-slider  {
+    min-height: 90vh;
+
+    &__background-circle {
+        -webkit-animation: rotation infinite 55s linear;
+        animation: rotation infinite 55s linear;
+        z-index: -1;
+        height: 100%;
+    }
+    &__small-image {
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+        &--1,
+        &--4 {
+            -webkit-animation: float-bob-y infinite 4s alternate;
+            animation: float-bob-y infinite 4s alternate;
+        }
+        &--3,
+        &--5 {
+            -webkit-animation: float-bob-x infinite 5s linear;
+            animation: float-bob-x infinite 5s linear;
+        }
+        &--2,
+        &--6 {
+            -webkit-animation: float-bob-y infinite 6s alternate;
+            animation: float-bob-y infinite 6s alternate;
+        }
+        &--7,
+        &--8 {
+            -webkit-animation: float-bob-x infinite 7s alternate;
+            animation: float-bob-x infinite 7s alternate;
+        }
+    }
+}
+
+
+/* Animations */
+@keyframes rotation {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes float-bob-y {
+    0% {
+        -webkit-transform: translateY(-25px);
+        transform: translateY(-25px);
+    }
+    50% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    100% {
+        -webkit-transform: translateY(-25px);
+        transform: translateY(-25px);
+    }
+}
+
+@keyframes float-bob-x {
+    0% {
+        -webkit-transform: translateX(-25px);
+        transform: translateX(-25px);
+    }
+    50% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    100% {
+        -webkit-transform: translateX(-25px);
+        transform: translateX(-25px);
+    }
+}
